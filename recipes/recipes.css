@@ -1,4 +1,14 @@
+html, body {
+    font-family: Tahoma, serif;
+    color: rgb(253, 250, 246, 0.7);
+    font-size: 12px;
+}
+
+h1 {
+    color: rgba(84,51,16, 1);
+}
+
 img {
     width: 200px;
-    color: rgb(253, 250, 246);
+    margin: auto;
 }
