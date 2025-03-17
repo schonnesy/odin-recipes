@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="/images/spatula.png" />
     <title>Recipe Book</title>
-</head>
-<body>
-    <h1>Recipe Book</h1>
-    <a href="recipes/adobo.html">Famous Chicken Adobo</a>
-    <a href="recipes/caldereta.html">Caldereta (Filipino Beef and Chorizo Stew)</a>
-    <a href="recipes/baklava.html">Greek Baklava</a>
-</body>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="header"></div>
+
+    <div class="container">
+      <div class="navigation">
+        <h1>Recipe Book</h1>
+        <article>
+          <h5>
+            <a id="adobo" href="recipes/adobo.html" target="content-frame"
+              >Famous Chicken Adobo</a
+            >
+          </h5>
+        </article>
+        <article>
+          <h5>
+            <a
+              id="caldereta"
+              href="recipes/caldereta.html"
+              target="content-frame"
+              >Beef Caldereta</a
+            >
+          </h5>
+        </article>
+        <article>
+          <h5>
+            <a id="baklava" href="recipes/baklava.html" target="content-frame"
+              >Greek Baklava</a
+            >
+          </h5>
+        </article>
+      </div>
+      <div class="recipe">
+        <iframe name="content-frame" src="recipes/adobo.html" title="Recipes" style="border: none"></iframe>
+      </div>
+    </div>
+  </body>
 </html>
